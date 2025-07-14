@@ -1,0 +1,44 @@
+@font-face{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+body{
+	background-color: #e1ddf4;
+	font-family: Trebuchet MS;
+	margin: 0px;
+}
+
+h1{
+	justify-content: center;
+}
+
+#title{
+	display: flex;
+	justify-content: center;
+	background-color: #514283;
+	color: white;
+	width: 100%;
+	font-size: 2em;
+}
+
+#imgDiv{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	top: 50%;
+    left: 50%;
+    margin-left: 37%;
+    margin-top: 0%;
+}
+
+#imgBox{
+	display: flex;
+	width: 480px;
+	justify-content: center;
+}
+#imgBoxTwo{
+	display: flex;
+	width: 200px;
+	justify-content: center;
+	margin-left: 142px;
+}
